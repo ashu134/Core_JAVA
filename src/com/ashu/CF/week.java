@@ -1,3 +1,5 @@
+package com.ashu.CF;
+
 public class week {
     public static void main(String[] args) {
         printdayofweek(9);

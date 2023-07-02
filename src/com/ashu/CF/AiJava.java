@@ -1,3 +1,5 @@
+package com.ashu.CF;
+
 import java.util.Scanner;
     public class AiJava {
 

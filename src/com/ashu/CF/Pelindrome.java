@@ -1,3 +1,5 @@
+package com.ashu.CF;
+
 public class Pelindrome {
     public static void main(String[] args) {
         System.out.println(isPalindrome(11));

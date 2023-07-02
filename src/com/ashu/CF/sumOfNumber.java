@@ -1,3 +1,5 @@
+package com.ashu.CF;
+
 public class sumOfNumber {
     public static void main(String[] args) {
         int sum1= 0;

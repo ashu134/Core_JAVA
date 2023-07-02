@@ -1,3 +1,5 @@
+package com.ashu.CF;
+
 public class numbeToWord {
     public static void main(String[] args) {
         getDigitCount(0);

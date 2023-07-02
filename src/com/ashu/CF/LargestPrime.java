@@ -1,3 +1,5 @@
+package com.ashu.CF;
+
 public class LargestPrime {
     public static void main(String[] args) {
         //System.out.println(getLargestPrime(7));

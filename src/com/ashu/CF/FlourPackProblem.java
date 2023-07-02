@@ -1,3 +1,5 @@
+package com.ashu.CF;
+
 public class FlourPackProblem {
     public static void main(String[] args) {
         System.out.println(canPack(2, 1, 5));

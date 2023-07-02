@@ -1,3 +1,5 @@
+package com.ashu.CF;
+
 public class leapYear {
     public static void main(String[] args) {
         System.out.println(getDaysInMonth(2,2018));
