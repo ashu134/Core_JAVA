@@ -7,6 +7,16 @@ public class Account {
     private  String custMail;
     private String  custPhone;
 
+    public Account(String number,double balance,String custName, String custMail
+    , String custPhone){  //constructor with parameter
+        System.out.println("Account constructor with parameter called");
+        this.balance=balance;
+        this.number=number;
+        this.custName=custName;
+        this.custMail=custMail;
+        this.custPhone=custPhone;
+    }
+
     public void depositeFuds(double depositeAmount){
         balance =balance+depositeAmount;
         System.out.println("Deposite of $" + depositeAmount+ " made. New " +
@@ -27,6 +37,7 @@ public class Account {
 
 
     public double getBalance() {
+
         return balance;
     }
 
