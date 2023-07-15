@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3da2e552-7d85-4c1d-9c31-fa49af6c99c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/EMP/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/EMP/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/EMP/SlariedEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/EMP/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/EMP/salarymain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../readmeGit.txt" afterDir="false" />
+    <list default="true" id="3da2e552-7d85-4c1d-9c31-fa49af6c99c4" name="Changes" comment="Inheritance commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/EMP/concatStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ENCP/EnhancedPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ENCP/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ENCP/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ENCP/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ENCP/mainPaperprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/KTN/Appliance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/KTN/SmartKitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/KTN/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/PRD/PersonalComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/PRD/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/PRD/product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/StringFunc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,20 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/GitRepo/JavaFiles/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "onboarding.tips.debug.path": "D:/GitRepo/JavaFiles/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.salarymain">
-    <configuration name="InputCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.CF.InputCalculator" />
+}]]></component>
+  <component name="RunManager" selected="Application.mainPaperprint">
+    <configuration name="StringFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.StringFunc" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.CF.*" />
+          <option name="PATTERN" value="com.ashu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.OOPS.MainAccount" />
+    <configuration name="com.ashu.ENCP.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.ENCP.main" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.OOPS.*" />
+          <option name="PATTERN" value="com.ashu.ENCP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.OOPS.MainCar" />
+    <configuration name="com.ashu.KTN.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.KTN.main" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.OOPS.*" />
+          <option name="PATTERN" value="com.ashu.KTN.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.OOPS.SimpleCalculator" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.PRD.main" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.OOPS.*" />
+          <option name="PATTERN" value="com.ashu.PRD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="salarymain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.EMP.salarymain" />
+    <configuration name="mainPaperprint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.ENCP.mainPaperprint" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.EMP.*" />
+          <option name="PATTERN" value="com.ashu.ENCP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.salarymain" />
-        <item itemvalue="Application.MainAccount" />
-        <item itemvalue="Application.SimpleCalculator" />
-        <item itemvalue="Application.MainCar" />
-        <item itemvalue="Application.InputCalculator" />
+        <item itemvalue="Application.mainPaperprint" />
+        <item itemvalue="Application.com.ashu.ENCP.main" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.com.ashu.KTN.main" />
+        <item itemvalue="Application.StringFunc" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +136,20 @@
       <option name="presentableId" value="Default" />
       <updated>1688067703258</updated>
     </task>
+    <task id="LOCAL-00001" summary="Inheritance commit">
+      <option name="closed" value="true" />
+      <created>1688892435198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688892435198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inheritance commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -139,6 +162,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/ashu/ENCP/Printer.java</url>
+          <line>31</line>
+          <properties class="com.ashu.ENCP.Printer" method="printPages">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/ashu/ENCP/Printer.java</url>
+          <line>37</line>
+          <properties class="com.ashu.ENCP.Printer" method="getPagePrinted">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/ashu/ENCP/Printer.java</url>
+          <line>7</line>
+          <properties class="com.ashu.ENCP.Printer" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
