@@ -8,6 +8,7 @@ import java.util.Scanner;
             inputThenPrintSumAndAverage();
 
         }
+		
 
         public static void inputThenPrintSumAndAverage(){
 
