@@ -1,0 +1,74 @@
+1. Initiation
+-> Array-
+    String[] array= new String[4];
+-> ArrayList
+    ArrayList<String> arrayList= new ArrayList<>();
+
+2. Retrieving N of elements =
+-> Array - int elementcount= array.length;
+-> ArrayList- int elementCount = arratList.size();
+
+3. Assiging an Element
+-> Array- array[0]="Aashutosh";
+-> arrayList.set(0,"Aashutosh");
+
+4. getting an element
+-> Array - String element= array[0];
+-> ArrayList - String element=arrayList.get(0);
+
+5. ArrayCreation
+-> Array -
+    String[] array={"Aashutosh", "Amar", "Dinesh"};
+-> ArrayList-
+    ArrayList<String> arraylist= new ArrayList<>(List.of("Aashu","Briz"));
+
+6. MultiDimentional Array Creation :
+-> Array-
+    String[][] array2d= {
+                     {"First","Second"},
+                     {"third","Fourth"}
+                     };
+
+-> ArrayList-
+    ArrayList<ArrayList<String>> multiArratllist= new ArrayList<>();
+
+7. Sorting Method
+-> Array
+    Arrays.sort(array);
+-ArrayList
+    ArrayList.sort(comparator.natural/reverseOrder());
+
+Concept of big O Notation --
+As the number of element in array increase the cost can stay same.
+sometimes it may increase the cost as elements increase
+Or, Cost can Grow Exponentally
+in perfect World, an operation's time and complexity would never change.
+this ideal world,, in big O notation is O(1) Sometimes Called constant Time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
