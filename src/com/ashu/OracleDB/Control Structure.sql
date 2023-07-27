@@ -36,4 +36,68 @@ begin
                 end;
 dbms_output.put_line('your salary increase = '|| increment);
 end;
+
+--Basic Loop
+
+declare 
+    v_counter number(2) := 1;
+begin
+    loop
+        dbms_output.put_line('my counter is: '||V_counter);
+        v_counter := v_counter+1;
+    exit when v_counter > 5;
+    end loop;
+end;
+
+--While Loop
+/
+Declare 
+ v_num number(2) :=0;
+BEGIN
+    while v_num < 10 loop
+    dbms_output.put_line('my Number is: '||v_num);
+    v_num := v_num+1;
+    end loop;
+end;
+ 
+--For loop
+
+Declare
+    my_num number(2) :=0;
+begin
+    for i in 1..10 loop
+    dbms_output.put_line('loop: '||i);
+    end loop;
+end;
+
+begin
+    for i in reverse 1..11 loop
+    dbms_output.put_line('loop: '||i);
+    end loop;
+end;
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 
