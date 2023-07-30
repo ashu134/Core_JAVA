@@ -1,4 +1,4 @@
-package com.ashu;
+package com.ashu.STR;
 
 public class StringFunc {
     public static void main(String[] args) {
@@ -15,5 +15,4 @@ public class StringFunc {
         str= str.concat(str2);
         return str;
     }
-
 }
