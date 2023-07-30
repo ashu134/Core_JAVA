@@ -1,5 +1,7 @@
 package com.ashu.ARRY;
 
+import java.util.Arrays;
+
 public class BoxUnbox {
     public static void main(String[] args) {
         Integer boxed = Integer.valueOf(10); // Preferred but unnecessary
@@ -14,6 +16,10 @@ public class BoxUnbox {
         double d= getDoubleObject();
         Double d1= getLiteralDoublePrimitive();
         System.out.println(d+" "+d1);
+
+        int[] wrapperArray= new int[5];
+        wrapperArray[1]=10;
+        System.out.println(Arrays.toString(wrapperArray));
     }
     private static Double getDoubleObject(){
         return Double.valueOf(100.00);
