@@ -12,9 +12,7 @@ public class Dog extends Animal{
         }else {
             System.out.println(type+ " Running");
         }
-
     }
-
     @Override
     public void makeNoise() {
         if (type=="Wolf"){
