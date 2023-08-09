@@ -33,10 +33,12 @@ public class Bird extends Animal implements flightenabled,trackable{
 
     }
 
-  /*  public static void flyFliers(List<flightenabled> fliers){
+  /*
+  public static void flyFliers(List<flightenabled> fliers){
         for(var flier : fliers){
             flier.fly();
             System.out.println("Success");
         }
-    }*/
+    }
+    */
 }
