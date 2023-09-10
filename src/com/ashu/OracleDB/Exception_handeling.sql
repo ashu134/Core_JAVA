@@ -1,4 +1,3 @@
-
 declare
     too_high_salary exception;   --Exception Declaration 
     v_salary_check PLS_INTEGER;

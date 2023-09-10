@@ -1,5 +1,7 @@
 package com.ashu.INTRF;
 
+//If two interface contains same method name with different return
+// types then we cannot implement u=in same class
 enum FlightStages implements trackable{Grounded,Launch,Cruise,Data_collection;
 
     @Override
