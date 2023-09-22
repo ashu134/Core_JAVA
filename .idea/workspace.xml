@@ -5,18 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3da2e552-7d85-4c1d-9c31-fa49af6c99c4" name="Changes" comment="Commit_005: commit for Abstract">
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/GENR/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/HRT/Loops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/NEST/EmployeeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/NEST/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/NEST/employees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/NESTC/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/NESTC/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/STR/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ABSTCH/ArtObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ABSTCH/Furniture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ABSTCH/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ABSTCH/ProductForSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ABSTCH/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ARRLISTC/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ARRLISTC/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/Aatest/DateFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/Aatest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/Aatest/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/BRGR/DeluxeBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/BRGR/Hamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/BRGR/HealthyBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/BRGR/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/LMDA/LambdaExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/LMDA/Lambdaclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/LMDA/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/LMDA/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/LMDA/Operations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ashu/INTRF/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ashu/INTRF/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ashu/OracleDB/Exception_handeling.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ashu/OracleDB/Exception_handeling.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ashu/STR/StringFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ashu/STR/StringFunc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,23 +68,24 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ashu.ABSTCH" />
       <recent name="com.ashu.GENRC" />
       <recent name="com.ashu.GENR" />
       <recent name="com.ashu.ABST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringFunc">
-    <configuration name="Comparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.GENR.Comparable" />
+  <component name="RunManager" selected="Application.test">
+    <configuration name="LambdaExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.LMDA.LambdaExpression" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.GENR.*" />
+          <option name="PATTERN" value="com.ashu.LMDA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.HRT.Loops" />
+    <configuration name="Lambdaclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.LMDA.Lambdaclass" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.HRT.*" />
+          <option name="PATTERN" value="com.ashu.LMDA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.NEST.Main" />
+    <configuration name="Store" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.ABSTCH.Store" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.NEST.*" />
+          <option name="PATTERN" value="com.ashu.ABSTCH.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.STR.StringFunc" />
+    <configuration name="com.ashu.LMDA.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.LMDA.Main" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.STR.*" />
+          <option name="PATTERN" value="com.ashu.LMDA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.ashu.NESTC.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.NESTC.Main" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.Aatest.test" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.NESTC.*" />
+          <option name="PATTERN" value="com.ashu.Aatest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringFunc" />
-        <item itemvalue="Application.com.ashu.NESTC.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Comparable" />
-        <item itemvalue="Application.Loops" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Store" />
+        <item itemvalue="Application.LambdaExpression" />
+        <item itemvalue="Application.com.ashu.LMDA.Main" />
+        <item itemvalue="Application.Lambdaclass" />
       </list>
     </recent_temporary>
   </component>
