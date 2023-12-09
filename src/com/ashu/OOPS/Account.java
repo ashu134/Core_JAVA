@@ -72,4 +72,15 @@ public class Account {
     public void setCustPhone(String custPhone) {
         this.custPhone = custPhone;
     }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "number='" + number + '\'' +
+                ", balance=" + balance +
+                ", custName='" + custName + '\'' +
+                ", custMail='" + custMail + '\'' +
+                ", custPhone='" + custPhone + '\'' +
+                '}';
+    }
 }

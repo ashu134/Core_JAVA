@@ -13,11 +13,12 @@ public class LambdaExpression {
         List<String> cities= new ArrayList<>(List.of(
                 "PATNA","DELHI","BENGALURU","CHENNAI","MUMBAI"
         ));
-        for(var x: list){
+        for(var x: list){ //printing with Enhanced For loop
             System.out.println(x);
         }
         System.out.println("-----------------");
-        list.forEach((s) -> System.out.println(s)); //LAMBDA expression
+        list.forEach((s) -> System.out.println(s)); // printing with LAMBDA expression
+
 //        System.out.println("-----------------");
 //        list.forEach(System.out::println);
         System.out.println("-----------------");
