@@ -2,9 +2,7 @@ package com.ashu.COLL;
 
 import org.w3c.dom.ls.LSOutput;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,6 +15,11 @@ public class Main {
         System.out.println("Aashu is present in the list? "+list.contains("Aashu"));
         list.removeIf(s -> s.charAt(0)=='R');
         System.out.println(list);
-        
+        List<String> secondArr = new ArrayList<>(list.size());
+        //Collections.copy(secondArr,list); //We cannot use the Collection.copy iif size is differ
+        //System.out.println(secondArr);
+        List<String> cp=List.copyOf(list); // We can use List.copyOf
+        System.out.println(cp);
+
     }
 }

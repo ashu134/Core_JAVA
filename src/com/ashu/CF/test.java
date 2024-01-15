@@ -2,8 +2,11 @@ package com.ashu.CF;
 
 import com.ashu.EMP.*;
 import com.ashu.OOPS.*;
+import com.ashu.STR.StringFunc;
 
 import java.math.BigInteger;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class test {
     Account account= new Account("012",100.4,"Amar kumar","amar1234@gmail.com","9098787878");
@@ -28,6 +31,9 @@ public class test {
                 Account("110",100.11,"Raj kumar","rajkumar567@gmail.com","9090909090");
         System.out.println(account1);
         System.out.println(test.getAccount());
+        StringFunc stringFunc=new StringFunc();
+        StringFunc stringFunc1=new StringFunc();
+       //  var x= Comparator.comparing(stringFunc1::getDetails);
     }
 
     public static void calcultor(boolean gameover, int score, int levelCompleted, int bonus){

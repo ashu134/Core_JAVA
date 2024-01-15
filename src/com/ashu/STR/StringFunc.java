@@ -31,6 +31,7 @@ public class StringFunc {
         str= str.concat(str2);
         return str;
     }
-
-
+    public static String getDetails(){
+        return "My name is Ashu";
+    }
 }
