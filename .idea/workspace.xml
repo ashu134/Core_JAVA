@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3da2e552-7d85-4c1d-9c31-fa49af6c99c4" name="Changes" comment="Commit_005: commit for Abstract">
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/ARRY/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/LAMDA/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/LAMDA/Moto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/LAMDA/Normalclass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/LAMDA/Realme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/LAMDA/RelameImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ashu/LAMDA/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ARRY/SumTWO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/ARRY/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/COLL/CollectionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/COLL/HASMAPCONCEPT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/COLL/NewCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/COLL/Synchronization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/COLL/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/COLL/TestArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/DSA/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/DSA/DoublyLinkedistMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/DSA/LinkedListConcept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/DSA/LinkedListMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/DSA/LinkedRemoveLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ashu/STR/A.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Springboot-project/Spring-boot-Primary/testdemo-constructor-injection/src/main/java/com/ashu/Outpkg/ExtFootballCoach.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Springboot-project/Spring-boot-Primary/testdemo-constructor-injection/src/main/java/com/ashu/Outpkg/ExtTennisCoach.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Springboot-project/Spring-boot-core/testdemo-constructor-injection/src/main/java/com/ashu/Outpkg/ExtCoach.java" afterDir="false" />
@@ -30,9 +37,8 @@
       <change afterPath="$PROJECT_DIR$/../Springboot-project/snapshot-project/01-actuator demo/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Springboot-project/snapshot-project/myapp/myapp/src/main/java/com/ashu/myapp/rest/FirstRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ashu/CF/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ashu/CF/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ashu/COLL/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ashu/COLL/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ashu/STR/StringFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ashu/STR/StringFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ashu/LAMDA/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ashu/LAMDA/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ashu/LAMDA/Normalclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ashu/LAMDA/Normalclass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +50,9 @@
       <list>
         <option value="Enum" />
         <option value="Python Script" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,11 +78,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;branch1&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitRepo/Springboot-project/Spring-boot-Primary&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitRepo/JavaFiles&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/GitRepo/JavaFiles/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -92,13 +100,18 @@
       <recent name="com.ashu.ABST" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.ashu.LAMDA.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.LAMDA.Main" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="ls" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DoublyLinkedistMain">
+    <configuration name="CollectionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.COLL.CollectionMethods" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.LAMDA.*" />
+          <option name="PATTERN" value="com.ashu.COLL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.LAMDA.Main" />
+    <configuration name="DoublyLinkedistMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.DSA.DoublyLinkedistMain" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.LAMDA.*" />
+          <option name="PATTERN" value="com.ashu.DSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.LAMDA.Main" />
+    <configuration name="LinkedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.DSA.LinkedListMain" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.LAMDA.*" />
+          <option name="PATTERN" value="com.ashu.DSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.LAMDA.Main" />
+    <configuration name="Nptel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.STR.Nptel" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.LAMDA.*" />
+          <option name="PATTERN" value="com.ashu.STR.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,38 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.LAMDA.Main" />
+    <configuration name="TestArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashu.COLL.TestArray" />
       <module name="JavaFiles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ashu.LAMDA.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.ashu.LAMDA.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.LAMDA.Main" />
-      <module name="JavaFiles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ashu.LAMDA.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.ashu.LAMDA.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ashu.LAMDA.Main" />
-      <module name="JavaFiles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ashu.LAMDA.*" />
+          <option name="PATTERN" value="com.ashu.COLL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.ashu.LAMDA.Main (2)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.com.ashu.LAMDA.Main" />
-        <item itemvalue="Application.com.ashu.LAMDA.Main (1)" />
+        <item itemvalue="Application.DoublyLinkedistMain" />
+        <item itemvalue="Application.Nptel" />
+        <item itemvalue="Application.CollectionMethods" />
+        <item itemvalue="Application.TestArray" />
+        <item itemvalue="Application.LinkedListMain" />
       </list>
     </recent_temporary>
   </component>

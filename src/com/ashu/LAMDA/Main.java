@@ -15,7 +15,6 @@ public class Main {
                 System.out.println("Anonymous class: this verion is MOTOROLA Edge 40 series ");
 
             }
-
             @Override
             public void varient() {
                 System.out.println("Anonymous Class: Color is VIVA MAGENTA ");
@@ -33,6 +32,7 @@ public class Main {
         Realme realme1= () -> System.out.println("Lambda Expression : This Model is 10 pro max");
         realme1.Model();
 
+        //Lamda expression with parameter
 
         Sum sum = (int a, int b, int c) -> {
                 System.out.println("The input of this method is: "+ a +" "+b +" "+ c);
