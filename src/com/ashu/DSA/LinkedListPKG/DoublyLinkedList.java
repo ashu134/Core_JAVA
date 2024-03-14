@@ -1,6 +1,4 @@
-package com.ashu.DSA;
-
-import org.w3c.dom.Node;
+package com.ashu.DSA.LinkedListPKG;
 
 public class DoublyLinkedList {
     private Node head;

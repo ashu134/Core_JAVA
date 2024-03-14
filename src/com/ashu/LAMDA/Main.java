@@ -23,7 +23,7 @@ public class Main {
         moto.Series();
         moto.varient();
 
-        // Lamda Expression
+        // Lambda Expression
         Realme realme=new RelameImpl();
         //Step1= only valid for functional interface
         //Step2= create a object of interface like Realme relame=
@@ -32,7 +32,7 @@ public class Main {
         Realme realme1= () -> System.out.println("Lambda Expression : This Model is 10 pro max");
         realme1.Model();
 
-        //Lamda expression with parameter
+        //Lambda expression with parameter
 
         Sum sum = (int a, int b, int c) -> {
                 System.out.println("The input of this method is: "+ a +" "+b +" "+ c);

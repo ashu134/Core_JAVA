@@ -1,4 +1,4 @@
-package com.ashu.DSA;
+package com.ashu.DSA.LinkedListPKG;
 
 public class DoublyLinkedistMain {
     public static void main(String[] args) {

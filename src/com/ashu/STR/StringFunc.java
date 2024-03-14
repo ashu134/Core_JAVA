@@ -1,7 +1,8 @@
 package com.ashu.STR;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
+
+import static java.util.Collections.reverse;
 
 public class StringFunc {
     public static void main(String[] args) {
@@ -12,7 +13,25 @@ public class StringFunc {
 //        if("Aashutosh".contains("A")){
 //            System.out.println("Yes A is present");
 //        }
-
+        String myname = "Aashutosh";
+        System.out.println(myname.length());
+        String[] name=  myname.split("");
+        System.out.println(name.toString());
+        for(String z : name)
+        {
+            System.out.print(z+ " ");
+        }
+        System.out.println();
+        String temp= "";
+        String revName ="";
+        for(int i=0; i<name.length; i++){
+            revName= name[i]+revName;
+        }
+        for(String z : revName.split(""))
+        {
+            System.out.print(z+ " ");
+        }
+        System.out.println();
         Scanner scan = new Scanner(System.in);
         String s = "He is a very very good boy, isn't he?";//scan.nextLine();
         String a= s.replace(",","");
@@ -20,11 +39,11 @@ public class StringFunc {
         //splits = Arrays.asList(splits).stream().filter(str -> !str.isEmpty()).collect(java.util.stream.Collectors.toList()).toArray(new String[0]);
 
         System.out.println(splits.length);
-        for(String z : splits)
-        {
-            System.out.println(z);
-        }
-        scan.close();
+//        for(String z : splits)
+//        {
+//            System.out.println(z);
+//        }
+//        scan.close();
     }
     public static String concatStr(String str1,String str2){
         String str= str1.concat(" ");
