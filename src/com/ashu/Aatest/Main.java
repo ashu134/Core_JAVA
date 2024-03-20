@@ -3,10 +3,7 @@ package com.ashu.Aatest;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws ParseException {
@@ -57,6 +54,37 @@ public class Main {
         Date date = df.parse(inputDate);
         System.out.println("Java Date = " + date.toString());
         System.out.println("Java Date as a 'long' value = " + date.getTime());
+
+
+        int[] arr = {3,2,3};
+        HashMap<Integer,Integer> nums= new HashMap();
+//        nums.put(1,3);
+//        nums.put(3,4);
+//        nums.put(4,3);
+        int n = (arr.length)/2;
+        Map<Integer,Integer> map = new HashMap<>();
+       for(int i=0; i < n*2 ; i++){
+            if(map.containsKey(arr[i])){
+                map.put(arr[i],map.get(arr[i])+1);
+            }else{
+                map.put(arr[i],1);
+            }
+        }
+        for (Map.Entry<Integer,Integer> entry : map.entrySet()){
+            if(entry.getValue()>=n){
+                System.out.println( entry.getKey()+":"+ entry.getValue()+ " "+n);
+            }
+        }
+        String[] words = {"wwwww","dkk","jjfj"};
+        for(int i=0; i<words.length; i++){
+            StringBuilder str = new StringBuilder();
+            str.append(words[i]);
+            str = str.reverse();
+            System.out.println(str +" "+ words[i]);
+            if(words[i].equals(str.toString())){
+                System.out.println(words[i]);
+            }
+        }
 
     }
 }
