@@ -1,6 +1,6 @@
 package com.ashu.PRD;
 
-public class PersonalComputer extends product{
+public class PersonalComputer extends product {
     private Computercase computercase;
     private Monitor monitor;
     private Motherboard motherboard;
@@ -12,10 +12,12 @@ public class PersonalComputer extends product{
         this.monitor = monitor;
         this.motherboard = motherboard;
     }
-    public void drawlogo(){
-        monitor.drawPixelAt(20,20,"Yellow");
+
+    public void drawlogo() {
+        monitor.drawPixelAt(20, 20, "Yellow");
     }
-    public void powerUp(){
+
+    public void powerUp() {
         computercase.pressPowerButton();
         drawlogo();
     }

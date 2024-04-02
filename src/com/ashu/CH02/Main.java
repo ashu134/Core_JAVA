@@ -16,7 +16,7 @@ public class Main {
         burger.addToppings("bacon","Cheese","MAYO");
         burger.printItem();*/
 
-        MealOrder mealOrder=new MealOrder();
+        MealOrder mealOrder = new MealOrder();
         mealOrder.printItemizedList();
     }
 }

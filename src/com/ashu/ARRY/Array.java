@@ -4,42 +4,40 @@ import java.util.Arrays;
 
 public class Array {
     public static void main(String[] args) {
-        int[] newArray=new int[10];
-        newArray[5]=122;
+        int[] newArray = new int[10];
+        newArray[5] = 122;
         System.out.println(newArray[5]);
-        String[] newstring= new String[10];
-        newstring[3]="Aashutosh";
-        newstring[4]="Kumar";
-        System.out.println(newstring[3]+" "+newstring[4]);
+        String[] newstring = new String[10];
+        newstring[3] = "Aashutosh";
+        newstring[4] = "Kumar";
+        System.out.println(newstring[3] + " " + newstring[4]);
 
         //Anonymnous Array
-        int[] integer={1,2,3,4,4,5};
-        String[] newwStr= {"Aashu","Raj", "Pawan","Amar"};
+        int[] integer = {1, 2, 3, 4, 4, 5};
+        String[] newwStr = {"Aashu", "Raj", "Pawan", "Amar"};
         System.out.println(newwStr.length);
         System.out.println(newwStr[1]);
 
-        for(int i=0;i<newwStr.length;i++){
+        for (int i = 0; i < newwStr.length; i++) {
             System.out.println(newwStr[i]);
         }
 
-        for (String element : newwStr){
-            System.out.println(element+ " ");
+        for (String element : newwStr) {
+            System.out.println(element + " ");
         }
         System.out.println();
         System.out.println(Arrays.toString(newwStr));
 
-        Object objectVariable= newArray;
-        if(objectVariable instanceof int[]){
+        Object objectVariable = newArray;
+        if (objectVariable instanceof int[]) {
             System.out.println("objectVariable is an int type array");
         }
-        Object[] objectArrray=new Object[4];
-        objectArrray[1]="Aashu";
-        objectArrray[2]=new StringBuilder("Hello");
-
+        Object[] objectArrray = new Object[4];
+        objectArrray[1] = "Aashu";
+        objectArrray[2] = new StringBuilder("Hello");
 
 
     }
-
 
 
 }

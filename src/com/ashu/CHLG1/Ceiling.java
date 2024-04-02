@@ -4,14 +4,16 @@ public class Ceiling {
     private int height;
     private int printedColor;
 
-    public Ceiling(int height,int printedColor){
-        this.height=height;
-        this.printedColor=printedColor;
+    public Ceiling(int height, int printedColor) {
+        this.height = height;
+        this.printedColor = printedColor;
     }
-    public int getHeight(){
+
+    public int getHeight() {
         return height;
     }
-    public int getPaintedColor(){
+
+    public int getPaintedColor() {
         return printedColor;
     }
 }

@@ -6,14 +6,11 @@ public class SumTWO {
     public static void main(String[] args) {
 
         int[] nums = {1, 2, 3, 4, 5, 9, 5, 3, 4, 6, 56, 2, 4, 4, 4, 5, 5, 5, 8, 8, 99, 6, 6, 6, 7, 87, 65};
-        System.out.println(Arrays.toString(sum(nums,11)));
+        System.out.println(Arrays.toString(sum(nums, 11)));
     }
 
 
-
-
-
-    public static int[] sum(int[] nums,int target) {
+    public static int[] sum(int[] nums, int target) {
         int[] res = new int[0];
         if (2 <= nums.length && nums.length < 1000) {
             res = new int[2];

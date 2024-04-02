@@ -2,8 +2,9 @@ package com.ashu.INTFCH;
 
 import java.util.List;
 
-enum UtilityType {ELECTRICITY, FIBER_OPTICS,GAS,WATER}
-public class UtilityLine implements Mappable{
+enum UtilityType {ELECTRICITY, FIBER_OPTICS, GAS, WATER}
+
+public class UtilityLine implements Mappable {
     private String name;
     private UtilityType type;
 
@@ -14,7 +15,7 @@ public class UtilityLine implements Mappable{
 
     @Override
     public String getLabel() {
-        return name+" ("+type +")";
+        return name + " (" + type + ")";
     }
 
     @Override
@@ -24,16 +25,17 @@ public class UtilityLine implements Mappable{
 
     @Override
     public String getMarker() {
-        return switch (type){
-            case ELECTRICITY -> color.GREEN+ " "+ LineMarker.DASHED;
-            case FIBER_OPTICS -> color.GREEN +" "+ LineMarker.DOTTED;
-            case GAS -> color.ORANGE+" "+LineMarker.SOLID;
-            default -> color.BLACK+" "+LineMarker.SOLID;
+        return switch (type) {
+            case ELECTRICITY -> color.GREEN + " " + LineMarker.DASHED;
+            case FIBER_OPTICS -> color.GREEN + " " + LineMarker.DOTTED;
+            case GAS -> color.ORANGE + " " + LineMarker.SOLID;
+            default -> color.BLACK + " " + LineMarker.SOLID;
         };
     }
+
     @Override
     public String toJSON() {
         return Mappable.super.toJSON() + """
-                , "name": "%s", "Utility": "%s" """.formatted(name,type);
+                , "name": "%s", "Utility": "%s" """.formatted(name, type);
     }
 }

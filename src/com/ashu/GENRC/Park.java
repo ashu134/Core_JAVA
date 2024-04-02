@@ -1,9 +1,9 @@
 package com.ashu.GENRC;
 
-public class Park extends Point{
+public class Park extends Point {
     private String name;
 
-    public Park(String name,String location) {
+    public Park(String name, String location) {
         super(location);
         this.name = name;
     }

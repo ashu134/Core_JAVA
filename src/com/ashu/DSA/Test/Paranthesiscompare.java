@@ -13,11 +13,11 @@ public class Paranthesiscompare {
                 return false;
             } else {
                 char top = stack.pop();
-                if (ch == ')' && top!= '(') {
+                if (ch == ')' && top != '(') {
                     return false;
-                } else if (ch == '}' && top!= '{') {
+                } else if (ch == '}' && top != '{') {
                     return false;
-                } else if (ch == ']' && top!= '[') {
+                } else if (ch == ']' && top != '[') {
                     return false;
                 }
             }

@@ -5,23 +5,26 @@ public class AnonymousClass {
 
     }
 
-    public void State(){
+    public void State() {
         System.out.println("Bihar");
     }
-    public void Capital(){
+
+    public void Capital() {
         System.out.println("Patna");
     }
 }
-class StateAndCapital{
+
+class StateAndCapital {
     public static void main(String[] args) {
-        AnonymousClass anonymousClass=new AnonymousClass();
+        AnonymousClass anonymousClass = new AnonymousClass();
         anonymousClass.State();
         anonymousClass.Capital();  // Normal way of Call
-        AnonymousClass anonymousClass1=new AnonymousClass(){
-            public void State(){
+        AnonymousClass anonymousClass1 = new AnonymousClass() {
+            public void State() {
                 System.out.println("Karnataka");
             }
-            public void Capital(){
+
+            public void Capital() {
                 System.out.println("Bengaluru");
             }
         };

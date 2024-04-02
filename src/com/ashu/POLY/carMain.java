@@ -8,16 +8,16 @@ public class carMain {
         //car.runEngine();
         runRace(car);*/
 
-        Car newcar=new GasPoweredCar("Mahindra SUV", 100,7);
+        Car newcar = new GasPoweredCar("Mahindra SUV", 100, 7);
         runRace(newcar);
 
-        Car Tesla= new ElectricCar("2022 red model 3",500,75);
+        Car Tesla = new ElectricCar("2022 red model 3", 500, 75);
         runRace(Tesla);
-        Car frrrihybrid= new HybridCar("ferrari 2023 232XN",1100,6,100);
+        Car frrrihybrid = new HybridCar("ferrari 2023 232XN", 1100, 6, 100);
         runRace(frrrihybrid);
     }
 
-    public static void runRace(Car car){
+    public static void runRace(Car car) {
         car.StartEngine();
         car.drive();
 

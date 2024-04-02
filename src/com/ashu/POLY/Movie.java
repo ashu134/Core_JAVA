@@ -1,17 +1,20 @@
 package com.ashu.POLY;
+
 public class Movie {
     private String title;
 
     public Movie(String title) {
         this.title = title;
     }
-    public void watchMovie(){
-        String instanceType= this.getClass().getSimpleName();
-        System.out.println(title+ " Is a "+ instanceType+ " Film.");
+
+    public void watchMovie() {
+        String instanceType = this.getClass().getSimpleName();
+        System.out.println(title + " Is a " + instanceType + " Film.");
     }
-    public static Movie getmovie(String type, String title){
+
+    public static Movie getmovie(String type, String title) {
         //Call different Method based on inputs
-        return switch (type.toUpperCase().charAt(0)){
+        return switch (type.toUpperCase().charAt(0)) {
             case 'A' -> new Adventure(title);
             case 'C' -> new Comedy(title);
             case 'S' -> new SiFi(title);
@@ -20,7 +23,7 @@ public class Movie {
     }
 }
 
-class Adventure extends Movie{
+class Adventure extends Movie {
     public Adventure(String title) {
         super(title);
     }
@@ -34,7 +37,8 @@ class Adventure extends Movie{
                 "Something bad happens");
     }
 }
-class Comedy extends Movie{
+
+class Comedy extends Movie {
     public Comedy(String title) {
         super(title);
     }
@@ -48,7 +52,8 @@ class Comedy extends Movie{
                 "Happy ending ");
     }
 }
-class SiFi extends Movie{
+
+class SiFi extends Movie {
     public SiFi(String title) {
         super(title);
     }

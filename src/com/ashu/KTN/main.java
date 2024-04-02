@@ -13,7 +13,7 @@ package com.ashu.KTN;
 
 public class main {
     public static void main(String[] args) {
-        SmartKitchen ktn= new SmartKitchen();
+        SmartKitchen ktn = new SmartKitchen();
 
         /*
         ktn.getDishWasher().setHasWorkToDo(true);
@@ -24,7 +24,7 @@ public class main {
         ktn.getIceBox().orderFood();
         ktn.getBrewMaster().brewCoffee();
         */
-        ktn.setKitchenState(true,true,true);
+        ktn.setKitchenState(true, true, true);
         ktn.doKitchenWork();
     }
 }

@@ -3,12 +3,13 @@ package com.ashu.EMP;
 public class Worker {
     private String name;
     private String birthDate;
-    protected  String endDate;
+    protected String endDate;
 
     public String getName() {
         return name;
     }
-    public Worker(){
+
+    public Worker() {
 
     }
 
@@ -37,25 +38,26 @@ public class Worker {
         this.endDate = endDate;
     }
 
-    public int getAge(){
-        int currentYear=2023;
+    public int getAge() {
+        int currentYear = 2023;
         //SubString function will give yyyy from DD/MM/YYYY after index 6
-        int birthYear= Integer.parseInt(birthDate.substring(6));
-        return currentYear-birthYear;
+        int birthYear = Integer.parseInt(birthDate.substring(6));
+        return currentYear - birthYear;
     }
-    public double collectPay(){
+
+    public double collectPay() {
         return 0.0;
     }
 
-    public void terminate(String endDate){
-        this.endDate=endDate;
+    public void terminate(String endDate) {
+        this.endDate = endDate;
     }
 
-    public String toString(){
-        return "worker{"+
-                "name='"+ name+ '\''+
-                ", birthDate= "+ birthDate+'\''
-                + ",endDate='"+endDate+'\''+
+    public String toString() {
+        return "worker{" +
+                "name='" + name + '\'' +
+                ", birthDate= " + birthDate + '\''
+                + ",endDate='" + endDate + '\'' +
                 '}';
     }
 }

@@ -11,10 +11,10 @@ public class Main {
     public static void main(String[] args) {
 
 
-    Bird bird = new Bird();
-    Animal animal = bird;
-    flightenabled flier = bird;
-    trackable track = bird;
+        Bird bird = new Bird();
+        Animal animal = bird;
+        flightenabled flier = bird;
+        trackable track = bird;
 
     /*
     animal.move();
@@ -23,48 +23,51 @@ public class Main {
     bird.track();
     flier.takeoff();
     */
-     inflight(flier);
-     Jet jet = new Jet();
-     inflight(jet);
-     Truck truck = new Truck();
-     truck.track();
+        inflight(flier);
+        Jet jet = new Jet();
+        inflight(jet);
+        Truck truck = new Truck();
+        truck.track();
 
-     //ArrayList<flightenabled> fliers = new ArrayList<>();
+        //ArrayList<flightenabled> fliers = new ArrayList<>();
         LinkedList<flightenabled> fliers = new LinkedList<>();
-     fliers.add(bird);
-     triggerFliers(fliers);
-     flyFliers(fliers);
+        fliers.add(bird);
+        triggerFliers(fliers);
+        flyFliers(fliers);
         //bird.flyFliers(fliers);
-     landFliers(fliers);
+        landFliers(fliers);
 
-     List<flightenabled> betterFliers = new LinkedList<>();
-     betterFliers.add(bird);
+        List<flightenabled> betterFliers = new LinkedList<>();
+        betterFliers.add(bird);
         triggerFliers(betterFliers);
         //flyFliers(betterFliers);
         landFliers(betterFliers);
 
     }
-    private static void inflight(flightenabled flier){
+
+    private static void inflight(flightenabled flier) {
         flier.takeoff();
         flier.fly();
-        if(flier instanceof trackable track){
+        if (flier instanceof trackable track) {
             track.track();
         }
         flier.land();
     }
 
-    private  static void triggerFliers(List<flightenabled> fliers){
-        for(var flier : fliers){
+    private static void triggerFliers(List<flightenabled> fliers) {
+        for (var flier : fliers) {
             flier.takeoff();
         }
     }
-    private  static void landFliers(List<flightenabled> fliers){
-        for(var flier : fliers){
+
+    private static void landFliers(List<flightenabled> fliers) {
+        for (var flier : fliers) {
             flier.land();
         }
     }
-    private  static void flyFliers(List<flightenabled> fliers){
-        for(var flier : fliers){
+
+    private static void flyFliers(List<flightenabled> fliers) {
+        for (var flier : fliers) {
             flier.fly();
         }
     }

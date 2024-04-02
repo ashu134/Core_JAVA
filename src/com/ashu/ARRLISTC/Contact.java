@@ -4,18 +4,20 @@ public class Contact {
     private String name;
     private String phoneNumber;
 
-    public Contact(String name, String phoneNumber){
-        this.name=name;
-        this.phoneNumber=phoneNumber;
+    public Contact(String name, String phoneNumber) {
+        this.name = name;
+        this.phoneNumber = phoneNumber;
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
     }
-    public String getPhoneNumber(){
+
+    public String getPhoneNumber() {
         return this.phoneNumber;
     }
-    public static Contact createContact(String name,String phoneNumbr){
-        return new Contact(name,phoneNumbr);
+
+    public static Contact createContact(String name, String phoneNumbr) {
+        return new Contact(name, phoneNumbr);
     }
 }

@@ -21,7 +21,7 @@ public class LinkedListMain {
 //        newConcept.RemoveFirst();
 //        newConcept.printList();
         System.out.println(newConcept.get(0).value);
-        System.out.println(newConcept.set(1,9).value);
+        System.out.println(newConcept.set(1, 9).value);
         newConcept.printList();
     }
 

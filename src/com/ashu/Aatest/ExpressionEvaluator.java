@@ -83,6 +83,7 @@ public class ExpressionEvaluator {
                 throw new RuntimeException("Invalid operator: " + operator);
         }
     }
+
     private static void applyOperatortest(Stack<String> operandStack, char operator) {
         double secondOperand = Double.parseDouble(operandStack.pop());
         double firstOperand = Double.parseDouble(operandStack.pop());

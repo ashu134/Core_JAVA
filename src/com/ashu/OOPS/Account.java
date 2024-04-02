@@ -1,33 +1,34 @@
 package com.ashu.OOPS;
 
 public class Account {
-    private  String number;
+    private String number;
     private double balance;
     private String custName;
-    private  String custMail;
-    private String  custPhone;
+    private String custMail;
+    private String custPhone;
 
-    public Account(String number,double balance,String custName, String custMail
-    , String custPhone){  //constructor with parameter
+    public Account(String number, double balance, String custName, String custMail
+            , String custPhone) {  //constructor with parameter
         System.out.println("Account constructor with parameter called");
-        this.balance=balance;
-        this.number=number;
-        this.custName=custName;
-        this.custMail=custMail;
-        this.custPhone=custPhone;
+        this.balance = balance;
+        this.number = number;
+        this.custName = custName;
+        this.custMail = custMail;
+        this.custPhone = custPhone;
     }
 
-    public void depositeFuds(double depositeAmount){
-        balance =balance+depositeAmount;
-        System.out.println("Deposite of $" + depositeAmount+ " made. New " +
-                "Balance is $"+ balance);
+    public void depositeFuds(double depositeAmount) {
+        balance = balance + depositeAmount;
+        System.out.println("Deposite of $" + depositeAmount + " made. New " +
+                "Balance is $" + balance);
     }
-    public void withdrawFund(double withdrawalAmount){
-        if(balance-withdrawalAmount<0){
-            System.out.println("Your Account has only $"+ balance+ " Amount in you Account");
-        }else{
-            balance= balance-withdrawalAmount;
-            System.out.println("Your Withdrawal Amount is $"+withdrawalAmount+" Remaining Balance in your account is $"+balance);
+
+    public void withdrawFund(double withdrawalAmount) {
+        if (balance - withdrawalAmount < 0) {
+            System.out.println("Your Account has only $" + balance + " Amount in you Account");
+        } else {
+            balance = balance - withdrawalAmount;
+            System.out.println("Your Withdrawal Amount is $" + withdrawalAmount + " Remaining Balance in your account is $" + balance);
         }
     }
 

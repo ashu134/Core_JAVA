@@ -18,7 +18,7 @@ public class miniChallange1 {
 
         Consumer<String> printWordsLamda = sentence -> {
             String[] parts = sentence.split(" ");
-            for(String part : parts){
+            for (String part : parts) {
                 System.out.println(part);
             }
         };
@@ -35,10 +35,10 @@ public class miniChallange1 {
         printWordsForEach.accept("working with lamda function ");
         printWordsConcise.accept("working with lamda function - concise");
 //==============================================================
-        Function<String, String> everySecondChar=source ->{
-            StringBuilder returnval =new StringBuilder();
-            for(int i=0; i<source.length();i++ ){
-                if(i%2 ==1){
+        Function<String, String> everySecondChar = source -> {
+            StringBuilder returnval = new StringBuilder();
+            for (int i = 0; i < source.length(); i++) {
+                if (i % 2 == 1) {
                     returnval.append(source.charAt(i));
                 }
             }
@@ -46,10 +46,11 @@ public class miniChallange1 {
         };
         System.out.println(everySecondChar.apply("12345432"));
     }
-    public static String everySecondChar(String source){
-        StringBuilder returnval =new StringBuilder();
-        for(int i=0; i<source.length();i++ ){
-            if(i%2 ==1){
+
+    public static String everySecondChar(String source) {
+        StringBuilder returnval = new StringBuilder();
+        for (int i = 0; i < source.length(); i++) {
+            if (i % 2 == 1) {
                 returnval.append(source.charAt(i));
             }
         }

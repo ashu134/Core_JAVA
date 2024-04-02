@@ -16,19 +16,19 @@ public class main {
         Movie film= Movie.getmovie("S","GolMAl");
         film.watchMovie();
 */
-        Scanner sc= new Scanner(System.in);
-        while (true){
+        Scanner sc = new Scanner(System.in);
+        while (true) {
             System.out.println("Enter type (A for Adventure" +
                     "C for Comedy " +
                     "S for scienceFiction " +
                     "Q for quit)");
-            String type=sc.nextLine();
-            if("Qq".contains(type)){
+            String type = sc.nextLine();
+            if ("Qq".contains(type)) {
                 break;
             }
             System.out.println("Please Enter Movie Name");
-            String title=sc.nextLine();
-            Movie movie1=Movie.getmovie(type,title);
+            String title = sc.nextLine();
+            Movie movie1 = Movie.getmovie(type, title);
             movie1.watchMovie();
         }
 

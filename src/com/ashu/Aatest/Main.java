@@ -3,7 +3,10 @@ package com.ashu.Aatest;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws ParseException {
@@ -45,46 +48,49 @@ public class Main {
 //        int monthint = Integer.parseInt(month);
 //        int dayint = Integer.parseInt(day);
 //        System.out.println(yearInt + " + "+monthint+" + "+dayint);
-        DateFunction datec =new DateFunction();
-        if (datec.Datecompare("10/10/2020","11/10/2020")==true){
+        DateFunction datec = new DateFunction();
+        if (datec.Datecompare("10/10/2020", "11/10/2020") == true) {
             System.out.println("Given Dates are same");
         }
-        String  inputDate ="20220101";
+        String inputDate = "20220101";
         DateFormat df = new SimpleDateFormat("yyyyMMdd");
         Date date = df.parse(inputDate);
         System.out.println("Java Date = " + date.toString());
         System.out.println("Java Date as a 'long' value = " + date.getTime());
 
+<<<<<<< HEAD
 
-        int[] arr = {3,2,3};
-        HashMap<Integer,Integer> nums= new HashMap();
+        int[] arr = {3, 2, 3};
+        HashMap<Integer, Integer> nums = new HashMap();
 //        nums.put(1,3);
 //        nums.put(3,4);
 //        nums.put(4,3);
-        int n = (arr.length)/2;
-        Map<Integer,Integer> map = new HashMap<>();
-       for(int i=0; i < n*2 ; i++){
-            if(map.containsKey(arr[i])){
-                map.put(arr[i],map.get(arr[i])+1);
-            }else{
-                map.put(arr[i],1);
+        int n = (arr.length) / 2;
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < n * 2; i++) {
+            if (map.containsKey(arr[i])) {
+                map.put(arr[i], map.get(arr[i]) + 1);
+            } else {
+                map.put(arr[i], 1);
             }
         }
-        for (Map.Entry<Integer,Integer> entry : map.entrySet()){
-            if(entry.getValue()>=n){
-                System.out.println( entry.getKey()+":"+ entry.getValue()+ " "+n);
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            if (entry.getValue() >= n) {
+                System.out.println(entry.getKey() + ":" + entry.getValue() + " " + n);
             }
         }
-        String[] words = {"wwwww","dkk","jjfj"};
-        for(int i=0; i<words.length; i++){
+        String[] words = {"wwwww", "dkk", "jjfj"};
+        for (int i = 0; i < words.length; i++) {
             StringBuilder str = new StringBuilder();
             str.append(words[i]);
             str = str.reverse();
-            System.out.println(str +" "+ words[i]);
-            if(words[i].equals(str.toString())){
+            System.out.println(str + " " + words[i]);
+            if (words[i].equals(str.toString())) {
                 System.out.println(words[i]);
             }
         }
 
+=======
+>>>>>>> parent of fa9a548 (Push for TreeNodes and Other test java)
     }
 }

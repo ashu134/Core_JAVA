@@ -1,18 +1,21 @@
 package com.ashu.LMDA;
+
 @FunctionalInterface
-interface funcInterface{
+interface funcInterface {
     void myclass(int a);
 }
 
-interface newInterface{
+interface newInterface {
     void math();
+
     void science();
 }
+
 //traditional way of calling method starts here
-class newClass implements newInterface{
+class newClass implements newInterface {
     @Override
     public void math() {
-        System.out.println("This is math from "+getClass().getSimpleName());
+        System.out.println("This is math from " + getClass().getSimpleName());
     }
 
     @Override
@@ -21,8 +24,8 @@ class newClass implements newInterface{
     }
 }
 
-class anonyDemo implements newInterface{
-    public void Display(){
+class anonyDemo implements newInterface {
+    public void Display() {
         System.out.println("Display");
     }
 
@@ -38,18 +41,19 @@ class anonyDemo implements newInterface{
 
     }
 }
+
 //traditional way of calling method Ends here
 public class Lambdaclass {
 
     public static void main(String[] args) {
         //Calling Method by normal method-> class.method_name(();
-        anonyDemo anonyDemo=new anonyDemo();
-        newClass newClass= new newClass();
+        anonyDemo anonyDemo = new anonyDemo();
+        newClass newClass = new newClass();
         newClass.math();
         anonyDemo.math();
 
         //Calling method by anonymous class no need to  create explicit class
-        newInterface newInterface= new newInterface() {
+        newInterface newInterface = new newInterface() {
             @Override
             public void math() {
                 System.out.println("Math");
@@ -65,7 +69,7 @@ public class Lambdaclass {
 
         //Lambda Expressions with interface ->> funcInterface
         //Used to implements Functional interface-> only one method in the Interface
-        funcInterface obj= (a)-> System.out.println("method myClass "+a);
+        funcInterface obj = (a) -> System.out.println("method myClass " + a);
         obj.myclass(9);
     }
 }

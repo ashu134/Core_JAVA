@@ -1,17 +1,19 @@
 package com.ashu.STR;
 
-public class Animal{
+public class Animal {
     protected String name;
-    protected  String sound;
-    public Animal(String name){
-        this.name=name;
+    protected String sound;
+
+    public Animal(String name) {
+        this.name = name;
     }
-    public void makeSound(){
-        System.out.println(name+" Says " + sound);
+
+    public void makeSound() {
+        System.out.println(name + " Says " + sound);
     }
 }
 
-class Dog extends Animal{
+class Dog extends Animal {
 
     public Dog(String name) {
         super(name);
@@ -19,7 +21,7 @@ class Dog extends Animal{
     }
 }
 
-class Cat extends Animal{
+class Cat extends Animal {
 
     public Cat(String name) {
         super(name);

@@ -1,9 +1,9 @@
 package com.ashu.GENRC;
 
-public class River extends Line{
+public class River extends Line {
     private String name;
 
-    public River(String name,String... locations) {
+    public River(String name, String... locations) {
         super(locations);
         this.name = name;
     }

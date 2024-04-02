@@ -13,7 +13,7 @@ public class HASMAPCONCEPT {
         HashMap<String, String> hmap = new HashMap<>();
         HashMap<Integer, String> IntStrMap = new HashMap<>();
         HashMap<Integer, String> IntStrMap1 = new HashMap<>();
-        HashMap<Integer, String> IntStrMap2= new HashMap<>();
+        HashMap<Integer, String> IntStrMap2 = new HashMap<>();
         hmap.put("Name", "Aashutosh");
         hmap.put("Age", "25");
         hmap.put("city", "Aurangabad");
@@ -22,43 +22,43 @@ public class HASMAPCONCEPT {
         System.out.println(hmap);
 
         //Iterator: Over the set (Pair) > using the Entry key
-         Iterator<Map.Entry<String, String>> k= hmap.entrySet().iterator();
-         while (k.hasNext()){
-             Map.Entry<String, String> entry = k.next();
-             System.out.println(entry.getKey() + " " + entry.getValue());
-         }
-         //using key set
+        Iterator<Map.Entry<String, String>> k = hmap.entrySet().iterator();
+        while (k.hasNext()) {
+            Map.Entry<String, String> entry = k.next();
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+        //using key set
         Iterator<String> it = hmap.keySet().iterator();
-        while (it.hasNext()){
+        while (it.hasNext()) {
             String key = it.next();
             String value = hmap.get(key);
             System.out.println(key + "=" + value);
         }
-        IntStrMap.put(001,"Aashutosh");
-        IntStrMap.put(002,"Amar");
-        IntStrMap.put(003,"Dinesh");
+        IntStrMap.put(001, "Aashutosh");
+        IntStrMap.put(002, "Amar");
+        IntStrMap.put(003, "Dinesh");
 
-        IntStrMap1.put(001,"Aashutosh");
-        IntStrMap1.put(002,"Amar");
-        IntStrMap1.put(003,"Raj");
+        IntStrMap1.put(001, "Aashutosh");
+        IntStrMap1.put(002, "Amar");
+        IntStrMap1.put(003, "Raj");
 
-        IntStrMap2.put(001,"Aashutosh");
-        IntStrMap2.put(002,"Amar");
-        IntStrMap2.put(003,"Dinesh");
+        IntStrMap2.put(001, "Aashutosh");
+        IntStrMap2.put(002, "Amar");
+        IntStrMap2.put(003, "Dinesh");
         System.out.println(IntStrMap);
 
         //convert Hashmap to synchronized hashmap
         //thread safe
         //multiple null keys and values allowed
 
-        Map<Integer,String> synchash= Collections.synchronizedMap(IntStrMap);
+        Map<Integer, String> synchash = Collections.synchronizedMap(IntStrMap);
         System.out.println(synchash);
 
         //creating cuncurentHashmap
         // thread safe
         // null keys and value not allowed
         // Multiple reading threads are allowed
-        ConcurrentHashMap<String,String> cuncurentHashmap= new ConcurrentHashMap<>();
+        ConcurrentHashMap<String, String> cuncurentHashmap = new ConcurrentHashMap<>();
         cuncurentHashmap.put("Name", "Aashutosh");
         cuncurentHashmap.put("Age", "25");
         cuncurentHashmap.put("city", "Aurangabad");

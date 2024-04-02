@@ -90,7 +90,7 @@ public class sendsms {
 
     public static String url_str;
 
-    public static void init () {
+    public static void init() {
         server = null;
         user = null;
         password = null;
@@ -113,16 +113,15 @@ public class sendsms {
         wapsl = null;
     }
 
-    public static void setvar (String argname, String argvalue) {
+    public static void setvar(String argname, String argvalue) {
 
         if (argname != null) {
             if (argvalue != null) {
                 url_str = url_str + "&" + argname + "=";
                 try {
-                    String encoded = URLEncoder.encode (argvalue, "UTF-8");
+                    String encoded = URLEncoder.encode(argvalue, "UTF-8");
                     url_str = url_str + encoded;
-                }
-                catch (UnsupportedEncodingException e) {
+                } catch (UnsupportedEncodingException e) {
                     url_str = url_str + argvalue;
                 }
             }
@@ -130,7 +129,7 @@ public class sendsms {
 
     }
 
-    public static String send () {
+    public static String send() {
 
 
         String returnstring;
@@ -164,35 +163,34 @@ public class sendsms {
         setvar("wapsl", wapsl);
 
         try {
-            URL url2=new URL(url_str);
+            URL url2 = new URL(url_str);
 
             HttpURLConnection connection = (HttpURLConnection) url2.openConnection();
             connection.setDoOutput(false);
             connection.setDoInput(true);
 
-            String res=connection.getResponseMessage();
+            String res = connection.getResponseMessage();
 
-            System.out.println("Response Code  ->"+res);
+            System.out.println("Response Code  ->" + res);
 
-            int code = connection.getResponseCode () ;
+            int code = connection.getResponseCode();
 
-            if ( code == HttpURLConnection.HTTP_OK ) {
+            if (code == HttpURLConnection.HTTP_OK) {
                 //Get response data.
                 BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 
                 String str;
 
-                while( null != ((str = in.readLine()))) {
+                while (null != ((str = in.readLine()))) {
                     if (str.startsWith("MessageID=")) {
                         returnstring = returnstring + str + "\r\n";
                         System.out.println(str);
                     }
                 }
-                connection.disconnect() ;
+                connection.disconnect();
             }
-        }
-        catch(IOException e) {
-            System.out.println("unable to create new url"+e.getMessage());
+        } catch (IOException e) {
+            System.out.println("unable to create new url" + e.getMessage());
         }
         return returnstring;
     }

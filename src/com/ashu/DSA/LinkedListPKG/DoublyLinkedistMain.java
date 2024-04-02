@@ -10,7 +10,7 @@ public class DoublyLinkedistMain {
         doublyLinkedList.printList();
         //System.out.println(doublyLinkedList.removeLast().value);
         //System.out.println("First value removed : "+doublyLinkedList.removeFirst().value);
-       // doublyLinkedList.printList();
+        // doublyLinkedList.printList();
         //System.out.println(doublyLinkedList.get(10).value);
         System.out.println();
         System.out.println(doublyLinkedList.remove(1).value);

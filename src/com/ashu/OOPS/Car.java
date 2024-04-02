@@ -2,12 +2,12 @@ package com.ashu.OOPS;
 
 public class Car {
     private String make = "tata";
-    private  String model= "NEXON";
-    private String colour ="Black";
-    private  int doors = 4;
-    private boolean convertible= true;
+    private String model = "NEXON";
+    private String colour = "Black";
+    private int doors = 4;
+    private boolean convertible = true;
 
-    public String getMake(){
+    public String getMake() {
         return make;
     }
 
@@ -30,12 +30,12 @@ public class Car {
     }
 
     public void setMake(String make) {
-        if(make==null) make="unknown";
-        String lowercaseMake= make.toLowerCase();
-        switch (lowercaseMake){
-            case "new holland","mahindra","tata" -> this.make=make;
+        if (make == null) make = "unknown";
+        String lowercaseMake = make.toLowerCase();
+        switch (lowercaseMake) {
+            case "new holland", "mahindra", "tata" -> this.make = make;
             default -> {
-                this.make="Unsupported";
+                this.make = "Unsupported";
             }
 
         }
@@ -58,11 +58,11 @@ public class Car {
         this.convertible = convertible;
     }
 
-    public  void describeCar(){
-        System.out.println(doors + "-Doors "+
+    public void describeCar() {
+        System.out.println(doors + "-Doors " +
                 colour + " " +
                 make + " " +
-                model + " "+
-                (convertible ? "convertible": ""));
+                model + " " +
+                (convertible ? "convertible" : ""));
     }
 }

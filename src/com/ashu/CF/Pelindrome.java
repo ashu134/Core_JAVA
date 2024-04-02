@@ -7,25 +7,27 @@ public class Pelindrome {
         System.out.println(sumFirstAndLastDigit(4));
 
     }
-    public static boolean isPalindrome (int number){
-        int reservenum=number;
-        int reverse=0;
-        while (number !=0){
-            int reminder =number%10;
-            reverse= reverse*10+reminder;
-            number=number/10;
+
+    public static boolean isPalindrome(int number) {
+        int reservenum = number;
+        int reverse = 0;
+        while (number != 0) {
+            int reminder = number % 10;
+            reverse = reverse * 10 + reminder;
+            number = number / 10;
 
         }
-        if (reservenum==reverse){
+        if (reservenum == reverse) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
+
     public static int sumFirstAndLastDigit(int number) {
         int reverse = 0;
-        int sum=0;
-        int count=0;
+        int sum = 0;
+        int count = 0;
         if (number < 0) {
             return -1;
         } else {
@@ -34,10 +36,10 @@ public class Pelindrome {
                 int reminder = number % 10;
                 reverse = reverse * 10 + reminder;
                 number = number / 10;
-                if(count==1 && number == 0){
-                    sum=2*reminder;
-                }else if (count==1 || number == 0){
-                    sum=sum+reminder;
+                if (count == 1 && number == 0) {
+                    sum = 2 * reminder;
+                } else if (count == 1 || number == 0) {
+                    sum = sum + reminder;
                 }
             }
         }
